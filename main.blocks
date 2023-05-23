@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="=gQ(=6=j2zZ?yChUvP,T">Player</variable><variable type="KIND_SpriteKind" id="bz:bZ1(9L,Q|X$59}yld">Projectile</variable><variable type="KIND_SpriteKind" id="x]Fb`0M]57/WxHB*N|Y^">Food</variable><variable type="KIND_SpriteKind" id="(gcsaM)-?-|j}msS8{1E">Enemy</variable><variable id="F3j?l/8#^sQo^PBwJrw]">mySprite</variable><variable id="LuVDSspbB53n=Lxexv)e">Move</variable></variables><block type="pxt-on-start" id="P[Ku!7peRcJ=Ck$eoP%P" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="$`I2=,ig}Ss{d}}LDDxr"><field name="VAR" id="F3j?l/8#^sQo^PBwJrw]">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="]2JM6@JcZc70/@_hQXb;"><value name="img"><shadow type="screen_image_picker" id="v68HezMeRpmSuLsW].w)"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"v68HezMeRpmSuLsW].w)"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="~3b^kNi1Z(1gUghodJ2%"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="variables_set" id="j7I=pu2q~%fQ}OZ6eL,4"><field name="VAR" id="LuVDSspbB53n=Lxexv)e">Move</field><value name="VALUE"><shadow type="math_number" id="+h:=2Thtci+AxnXql$!L"><field name="NUM">0</field></shadow></value></block></next></block></statement></block><block type="function_definition" id="(a_oDk;u%.g4orZ+rtI_" x="350" y="130"><mutation name="Player Movement" functionid="T|pz:.%A0UX/#a!)?F[g"></mutation><field name="function_name">Player Movement</field><statement name="STACK"><block type="controls_if" id="xsKC?oAL7JWsl:R2)E83"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="!~BQwR!SQ`u4C;QcH~$w"><field name="BOOL">TRUE</field></shadow></value></block></statement></block><block type="forever" id="-!;LshTC($/OQj$.2hU1" x="10" y="190"><statement name="HANDLER"><block type="controls_if" id="lq.BqnmC;G(uX]SZlw$2"><value name="IF0"><shadow type="logic_boolean" id="$.jmPBhupqP.yOm,e!%C"><field name="BOOL">TRUE</field></shadow></value></block></statement></block></xml>
